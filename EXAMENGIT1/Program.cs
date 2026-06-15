@@ -14,9 +14,9 @@ class Person
 
     public virtual void ToonInfo()
     {
-        Console.WriteLine($"Naam: {Naam}");
+        Console.WriteLine($"De naam van het personage is {Naam}.");
         Console.WriteLine($"Leven: {Leven}");
-        Console.WriteLine($"Roll: {Roll}");
+        Console.WriteLine($"De rol van het personage is {Roll}.");
     }
 }
 
